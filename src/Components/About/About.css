@@ -1,0 +1,40 @@
+.content .icon-2 .reactjs {
+    animation: rotate-animation 10s infinite linear;
+}
+
+@keyframes rotate-animation {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    50% {
+        transform: rotate(180deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+@media (max-width: 500px) {
+    .about-me {
+        margin-top: 0rem;
+    }
+
+    .row {
+        gap: 1rem;
+    }
+
+    .content .info {
+        text-align: center;
+    }
+
+    .content .info p {
+        padding: 0px 10px 0px 10px;
+        text-align: justify;
+    }
+
+    .icons {
+        font-size: 1.8rem;
+    }
+}
